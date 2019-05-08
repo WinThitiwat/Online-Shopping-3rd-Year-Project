@@ -1,4 +1,4 @@
-# Online Shopping 3rd Year Project
+# Online Shopping 3rd Year Project in 2016
 - This is a 3rd year project creating when I did exchange study at Wuhan University. 
 - The project was inspired by the team members that were from different countries and we wanted to promote our gome countries local product.
 - The project was conducted under waterfall project methodology.
