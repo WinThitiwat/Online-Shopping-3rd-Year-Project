@@ -1,0 +1,98 @@
+.advSearch{
+    width:815px;
+    height:auto;
+    /*max-height: 275px;*/
+    /*border: 1px blueviolet solid;*/
+}
+
+
+
+.searchBox {
+    width: 100%;
+    height: 100%;
+    max-height: 200px;
+    border: 5px black solid;
+}
+
+.searchWord{
+
+    padding-top: 0px;
+    background-color: orangered;
+    width:825px;
+    height: 50px;
+}
+
+.searchWord h3{
+
+    font-size: 20px;
+    margin-top: 18px;
+    margin-left: 18px;
+}
+
+
+.searchRow1 {
+    width: 700px;
+    line-height: 30px;
+
+    margin: 20px auto;
+}
+
+.searchRow1 span{
+    width: 100%;
+    /*border: 1px red solid;*/
+}
+
+
+.searchRow1  input{
+    height:30px;
+    width: 250px;
+}
+.searchRow1  select .category{
+    width: 400px;
+    height: 30px;
+}
+
+.searchRow2{
+    width:700px;
+    margin: 20px auto 0;
+    line-height: 30px;
+
+}
+
+.searchRow2 .layoutLeft {
+    float: left;
+    width: 400px;
+}
+
+.searchRow2 .layoutRight{
+    margin-left: 310px;
+
+}
+
+.head{
+    font-weight: bold;
+    padding:0 5px 0 10px;
+}
+
+
+.searchLayout{
+    clear: both;
+}
+
+.searchBtt{
+    float: right;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.sButton{
+    height: 32px;
+    margin-top: 10px;
+}
+
+.searchLayout button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+

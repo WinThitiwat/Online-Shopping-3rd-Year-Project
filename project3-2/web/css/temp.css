@@ -1,0 +1,153 @@
+
+/*******top*****/
+.global-3{
+    width:auto;
+    height:500px;
+    background:url("../images/pattern.jpg");
+
+}
+
+
+.tosa-2{
+    border:4px solid black;
+    width:auto;
+    height:100%;
+
+}
+.top{
+    width:auto;
+    height:25px;
+    background:black;
+
+}
+.log{
+    float:right;
+
+    background:red;
+
+}
+.log:hover{
+    background:white;
+}
+/*background img*/
+
+.bck{
+    background:url("../images/header.png");
+    width:100%;
+    height:100%;
+    /*background-size: 100% 100%;*/
+    background-repeat: no-repeat;
+    padding-top: -10px;
+}
+
+
+
+/*source for the nav menu*/
+nav ul{
+    padding:0px;
+    margin: 0px;
+    list-style-type:none;
+    background-color:red;
+}
+
+
+.rien:hover{
+    background:none;
+
+}
+nav li{
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+    width:100px;
+    height:40px;
+    border:1px solid black;
+    text-align:center;
+    line-height:40px;
+
+}
+nav li:hover{
+    background-color:white;
+    font-style:italic;
+
+}
+nav li a{
+    display:block;
+    text-decoration:none;
+    color:black;
+
+}
+
+.miss{
+    float:right;
+    border-left:1px solid black;
+
+
+}
+.miss:hover{
+    background-color:white;
+
+}
+
+
+.ok{
+    width:auto;
+    height:40px
+
+}
+
+
+/**************************************************/
+/**************************************************/
+/**************************************************/
+/**************************************************/
+/**************************************************/
+/**************************************************/
+
+#checkoutArea{  width:815px;height:auto; }
+
+.personalInfoForm{
+    margin: 10px 30px 20px;
+    width: 750px;
+    height:250px;
+    /*border: 1px black solid;*/
+}
+.personalInfoForm h2{
+    margin: 0 0 10px 10px;
+}
+
+.personalInfo{
+    margin:10px auto;
+    width: 100%;
+}
+
+
+.personalInfoForm textarea{
+    outline:none;
+    padding:10px;
+    border:1px solid gray;
+    background:none;
+    font-size:20px;
+    color: black;
+    resize: none;
+    height:100%;
+    width:100%;
+}
+
+
+.paymentMethodForm{
+    margin: 10px 30px 20px;
+    width: 750px;
+    height:250px;
+    /*border: 1px black solid;*/
+}
+
+.paymentMethodForm .radioGroup{
+    font-size: 25px;
+}
+
+.paymentMethodForm .radioGroup input{
+    margin-bottom: 20px;
+
+}
+

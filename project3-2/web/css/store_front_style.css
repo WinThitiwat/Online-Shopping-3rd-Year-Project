@@ -1,0 +1,190 @@
+/*.paging_wrapper {*/
+    /*width: auto;*/
+    /*border: dashed black 1px;*/
+    /*height: 100px;*/
+    /*align-items: center;*/
+    /*align-content: center;*/
+    /*align-self: center;*/
+/*}*/
+
+/*.pagination_wrapper{*/
+    /*!*border: solid red 1px;*!*/
+    /*margin-left: 40%;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+/*}*/
+
+/*.pagination{*/
+    /*!*border: solid red 1px;*!*/
+    /*!*align-items: center;*!*/
+    /*!*align-content: center;*!*/
+    /*!*align-self: center;*!*/
+/*}*/
+
+
+
+/*.pagination table{*/
+    /*align-items: center;*/
+    /*align-content: center;*/
+    /*align-self: center;*/
+    /*text-align: center;*/
+/*}*/
+
+/*.pagination tbody td:hover{*/
+    /*background-color: cornflowerblue;*/
+    /*cursor: pointer;*/
+/*}*/
+
+/*.first{*/
+
+/*}*/
+
+/*.last{*/
+
+/*}*/
+
+/*.now{*/
+    /*border-bottom: solid 3px blueviolet;*/
+/*}*/
+
+/*.next_page {*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*background-color: cornflowerblue;*/
+/*}*/
+
+/*.line_pagination{*/
+    /*border-bottom: solid 4px lightskyblue;*/
+    /*width: 40px;*/
+
+/*}*/
+
+/*.box_number{*/
+    /*width: 40px;*/
+    /*!*height: 40px;*!*/
+    /*text-align: center;*/
+/*}*/
+
+/*.show_page {*/
+    /*width: 100%;*/
+    /*!*border: solid 1px black;*!*/
+    /*text-align: center;*/
+/*}*/
+
+/*.first_last{*/
+    /*margin-bottom: 10px;*/
+/*}*/
+
+
+/*------------------------------*/
+.paging_wrapper{
+    position: relative;
+    height: auto;
+    margin-top: 20px;
+}
+.paging_wrapper .change_perpage {
+    position: absolute;
+    font-size: 12px;
+    top: 25px;
+    right: 10px;
+}
+.paging_wrapper .pagination {
+    width: auto !important;
+    margin: 0px auto;
+    width: auto;
+    display: table;
+}
+.paging_wrapper .pagination a{
+    text-decoration:none;
+    color: #666;
+}
+.paging_wrapper .pagination .box_number{
+    width:40px;
+    height:37px;
+    line-height:37px;
+    text-align:center;
+    background-color:transparent;
+}
+.paging_wrapper .pagination .box_number:hover{
+    background-color:#f4f4f4;
+}
+.paging_wrapper .pagination .now .box_number:hover{
+    background-color:transparent;
+}
+.paging_wrapper .pagination .line_pagination{
+    width:40px;
+    height:3px;
+    background-color:#ddd;
+}
+.paging_wrapper .pagination .now .line_pagination{
+    background-color:#00a0eb;
+}
+.paging_wrapper .pagination .next a,
+.paging_wrapper .pagination .prev a{
+    width:70px;
+    height:40px;
+
+}
+/*
+.tsk-pageview .pagination .last {
+    width: 0px;
+}
+*/
+.paging_wrapper .pagination .nextBox{
+    width:70px;
+    height:40px;
+    background-color:#f5f5f5;
+    position:relative;
+}
+.paging_wrapper .pagination .next .nextBox .text{
+    position:absolute;
+    font-size: 13px;
+    bottom:3px;
+    right:5px;
+}
+.paging_wrapper .pagination .prev .nextBox .text{
+    position:absolute;
+    font-size: 13px;
+    bottom:3px;
+    left:5px;
+}
+.paging_wrapper .first_last {
+    margin: 0px auto 20px;
+}
+.paging_wrapper .pagination .nextBox:hover{
+    background-color:#ddd;
+}
+.paging_wrapper .show_page{
+    text-align: center;
+    position: relative;
+    margin: 20px auto;
+}
+
+
+
+/***********************************/
+
+#lean_overlay {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background: #000;
+    display:none;
+}
+
+#test {
+    width: 600px;
+    padding: 30px;
+    display:none;
+
+
+    background: #FFF;
+    border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.7); -webkit-box-shadow: 0 0 4px rgba(0,0,0,0.7); -moz-box-shadow: 0 0px 4px rgba(0,0,0,0.7);
+
+}
+
+#test p { color: #666; text-shadow: none; }

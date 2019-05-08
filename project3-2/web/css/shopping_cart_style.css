@@ -1,0 +1,60 @@
+table{
+    width:100%;
+    font-size: 20px;
+
+}
+
+
+table .firstRow{
+    background-color: #ddd;
+    height: 30px;
+}
+
+table .imageCol .qntyCol .descCol .priceCol .totalCol{
+     text-align: center;
+
+}
+
+.wdImg{width:220px; }
+.wdDescCol{ width:180px;}
+.wdQntyCol{width:100px; }
+.wdPriceCol{width:60px; }
+.wdTotalCol{ width:60px; }
+.wdRemoveCol{ width:90px; }
+
+table img{
+    margin-bottom: 5px;
+    margin-left: 45px;
+    background-size: cover;
+    height: 150px;
+    width: 120px;
+
+}
+
+table td{ border-bottom: 2px solid black;}
+
+table a:hover  {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+table .description{
+    text-align: center;
+}
+
+table .confirmCol {
+    column-span: 3;
+    text-align: right;
+    height: 30px;
+    border: none;
+}
+
+
+.confirmButton{
+    width: 150px; height:50px; background-color: gray;
+}
+
+.confirmButton:hover{
+    cursor: pointer;
+}

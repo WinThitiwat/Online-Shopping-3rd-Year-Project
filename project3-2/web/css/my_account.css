@@ -1,0 +1,83 @@
+table{
+    border:5px double lightgray;
+    margin: 0 auto;
+}
+
+
+table tr{
+
+}
+
+table tr td {
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+table tr td.firstCol{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+table tr td.secondCol{
+    width: 300px;
+    font-size: 17px;
+    text-align: center;
+
+}
+
+table tr td .secondCol .text_label{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+input[type=text]
+{
+    margin-top:8px;
+    font-size:18px;
+    color:#545454;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -border-radius: 2px;
+    display:none;
+    width:280px;
+
+}
+
+label
+{
+    float:left;
+    margin-top:8px;
+    font-size:18px;
+    color:#545454;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -border-radius: 2px;
+}
+
+.edit
+{
+    float:left;
+    background:url(../images/edit.png) no-repeat;
+    width:32px;
+    height:32px;
+    display:block;
+    cursor: pointer;
+    margin-left:10px;
+}
+
+.clear
+{
+    clear:both;
+    height:20px;
+}
+
+
+#saveButton {
+    width: auto;
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}

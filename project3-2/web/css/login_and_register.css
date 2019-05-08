@@ -1,0 +1,308 @@
+
+
+
+#overlay {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 1000;
+    background-image: url(../images/info.png);
+}
+
+#overlay div {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: center;
+}
+/************* Register ***************/
+
+.tableau-2 {
+    padding-left: 12px;
+    float: right;
+    width: 350px;
+    height: 638px;
+    border: 6px double black;
+    background: skyblue;
+
+}
+
+.attak {
+    font-size: 25px;
+    background: white;
+    font-style: italic;
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 120px;
+    box-shadow: 1px 1px 1px black;
+    margin: 0 auto;
+}
+
+#bote-2 {
+    font-size: 30px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 3px 3px 4px black;
+
+}
+
+.petit-2 {
+
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
+
+/*cote gauche*/
+.prima-1 {
+
+    width: 300px;
+    height: 300px;
+    border: 6px double black;
+    background: url("../images/header.png");
+    background-size: 100% 100%;
+}
+
+.prima-2 {
+    width: 300px;
+    height: 325px;
+    border: 6px double black;
+    /*background: url("../images/header.png");*/
+    /*background-size: 100% 100%;*/
+}
+
+.tableau-1 {
+    float: left;
+    width: 310px;
+    height: 650px;
+    border: 1px solid black;
+}
+
+.tango-2 {
+    width: 700px;
+    height: 651px;
+    border: 1px solid black;
+
+}
+
+.tosa {
+    width: 700px;
+    height: 1020px;
+    border: 2px solid black;
+    margin: 0 auto;
+
+}
+
+.plan {
+
+    background: url("../images/pattern.jpg");
+    background-resize: cover;
+    width: 100%;
+    height: 1040px;
+
+}
+
+/****************  Login ****************/
+.plan {
+
+    background: url("../images/pattern.jpg");
+    background-resize: cover;
+    width: 100%;
+    height: 870px;
+
+}
+
+.global {
+    width: 710px;
+    height: 841px;
+    border: 5px double black;
+    margin: 0 auto;
+
+}
+
+.dodo-1 {
+    font-size: 20px;
+    font-style: italic;
+    width: 120px;
+    background: white;
+    border-color: black;
+    border-radius: 15px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 4px 4px 3px black;
+    padding: 8px;
+    margin-left: 100px;
+
+}
+
+#bote {
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 4px 4px 4px black;
+}
+
+.petit {
+
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+
+}
+
+.tableau-r {
+    float: right;
+    background: grad;
+    width: 320px;
+    height: 395px;
+    border: 1px solid black;
+    box-shadow: 2px 3px 3px black;
+    padding-right: 20px;
+
+}
+
+.tableau-l {
+    float: left;
+    background: grad;
+    width: 340px;
+    height: 395px;
+    border: 1px solid black;
+    box-shadow: 2px 3px 3px black;
+
+}
+
+.tango-l {
+
+    width: 707px;
+    height: 400px;
+    bolder: 1px solid black;
+    background-image: url("../images/city_contrast.jpg");
+    background-size: 100% 100%;
+}
+
+/*footer of login page*/
+
+.gpo {
+    width: 707px;
+    height: auto;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px black;
+    background: gray;
+
+}
+
+.ordre {
+    width: 100%;
+
+    border: 2px solid black;
+}
+/************************************************************/
+/************************************************************/
+/************************************************************/
+/************************************************************/
+/************************************************************/
+
+.introduction {
+    height: 200px;
+    width: 100%;
+    border: 1px #ccc solid;
+}
+
+.introduction p {
+    text-align: center;
+    font-size: 23px;
+    font-style: italic;
+
+}
+
+.loginRegisterPart {
+    width: 100%;
+    height: 800px;
+    border: 1px #ccc solid;
+}
+
+.loginArea{
+    float: left;
+    width: 45%;
+    height: 500px;
+    margin-left: 25px;
+    border: 1px #ccc solid;
+}
+
+.registerArea {
+    float: right;
+    margin-right: 25px;
+    width: 45%;
+    height: 750px;
+    border: 1px #ccc solid;
+}
+
+.account_form, .registrationForm{
+    padding: 35px 40px 40px;
+}
+
+.account_form input{
+    /*border: solid 5px red;*/
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.account_form input:focus{
+    box-shadow: 5px 5px 8px gray;
+    /*border:  5px black    ;*/
+}
+
+.account_form .loginBtt, .registerBtt{
+    background-color: orangered;
+    color: white;
+}
+
+.account_form .loginBtt:hover,.registerBtt:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
+.loginForm, .registerForm {
+    font-size: 30px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.notificationForm {
+    font-size: 15px;
+    color: red;
+}
+
+
+
+.registrationForm input{
+    /*border: solid 5px red;*/
+    height: 40px;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.registrationForm input:focus{
+    box-shadow: 5px 5px 8px gray;
+    /*border:  5px black    ;*/
+}
+
+.registrationForm .loginBtt, .registerBtt{
+    background-color: orangered;
+    color: white;
+}
+
+.registrationForm .loginBtt:hover,.registerBtt:hover {
+    cursor: pointer;
+    background-color: orange;
+}
+
