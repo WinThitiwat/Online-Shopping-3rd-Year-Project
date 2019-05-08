@@ -2,3 +2,5 @@
 
 Username:  nana@yahoo.com
 password: 1234
+
+# Most of codes are in `index` folder, which is inside the `web` folder
